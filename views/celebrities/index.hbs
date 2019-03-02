@@ -1,0 +1,12 @@
+<h2 class='space'>Celebrities</h2>
+<a href='/celebrities/new' class='create-button'>Create a new celebrity</a>
+<div class='space'></div>
+{{#each celebrities}}
+    <a href='/celebrities/{{id}}'>{{name}}</a>
+    <form method="GET" action='celebrities/{{id}}/edit'>
+        <button type="submit">Edit</button>
+    </form>
+    <form method="POST" action='celebrities/{{id}}/delete'>
+        <button type="submit">Remove</button>
+    </form>
+{{/each}}

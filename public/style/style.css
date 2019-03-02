@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.celebrety-name {
+    color: darkgrey;
+}
+
+.create-button {
+    padding: 10px;
+    background-color: lightblue;
+    margin: 5%;
+}
+
+.space {
+    margin: 10%;
+}
